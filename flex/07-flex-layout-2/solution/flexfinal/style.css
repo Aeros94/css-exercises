@@ -1,0 +1,267 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+button{
+    
+}
+
+/* header css */
+
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family  : 'roboto';
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 50px;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex: 1;
+    margin-right: 30px;
+    width: 100%;
+    max-width: 380px;
+}
+
+.header-text p{
+    max-width: fit-content;
+}
+
+.header-blurb img{ 
+    width: 100%;
+    height: 100%;
+    max-width: 380px;
+    max-height: 200px;
+    padding-left: 30px;
+    flex: 1;
+    padding-top: 10px;
+}
+
+.header-blurb{
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+    max-width: 1300px;
+    justify-content: space-between;
+}
+
+.header-blurb button{
+    align-self: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex: 1;
+    width: 100%;
+    max-width: 1300px
+}
+
+.header-text text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-text p{
+    width: 400px;
+}
+
+.header-text button{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.header-top text{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header-top ul{
+    margin-top: 0;
+    margin-left: 5px;
+    padding: 0 8px 0 0;
+    min-width: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-top li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 9px;
+    color: #E5E7EB;
+    font-size: 18px;
+    flex-wrap: wrap;
+    max-width: 70px;
+    min-width: 80px;
+    padding:0 5px 5px 0;
+}
+
+/* body stuff */
+.body-1{
+    font-family: 'roboto';
+}
+
+.body-1 text{
+    font-weight: 600;
+    font-size: 18px;
+    color:#1F2937;
+}
+
+.inrnst_1{
+    max-width: 100px;
+    max-height: 100px;
+    border-style: solid;
+    min-height: 80px;
+    min-width: 80px;
+    border-radius: 9%;
+    color: #3882f6;
+}
+
+.nested-divs_body-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nested-divs_body-1 p{
+    font-size: 12px;
+    max-width: 90px;
+    padding-left: 2px;
+    margin: 4;
+    text-align: center;
+}
+
+.body-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px
+}
+
+.nstbdy_1{
+    min-width:140px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 150px;
+}
+
+/* Quote Body Stuff */
+.quote-body{
+    background-color: #E5E7EB;
+    width: 100%;
+    font-family: calibri;
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    align-items: center;
+}
+
+.quote > p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 200;
+    font-style: italic;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 590px;
+}
+.quote > text{
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 600;
+    justify-content: flex-end;
+    display: flex;
+    margin: 0;
+}
+
+/* Call to action */
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    color: white;
+    font-family: 'roboto';
+}
+
+.cta-main{
+    background-color: #3882f6;
+    border-radius: 9px;
+    width: 790px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-text{
+    padding: 10px;
+}
+
+.cta-text > p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+    margin-bottom: 0;
+    margin-top: 2;
+}
+
+.cta-main > button{
+    border-radius: 2px;
+    border-color: white;
+    border-style: solid;
+    background-color: #3882f6;
+    color: white;
+    padding: 3px;
+    width: 90px;
+    font: 'arial';
+}
+
+/* Footer stuff */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Arial light';
+    min-height: 80px;
+    align-items: center;
+}
